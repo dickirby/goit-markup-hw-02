@@ -106,7 +106,7 @@ footer {
     font-weight: 500;
 }
 
-.abilities-list {
+.list-item {
     background-color: var(--white);
 }
 
@@ -167,6 +167,10 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
+}
+
+.portfolio-button:hover , .portfolio-button:active{
+    color: var(--white);
 }
 .portfolio-header {
     color: var(--navyblue);
