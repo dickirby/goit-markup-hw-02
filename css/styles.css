@@ -10,12 +10,12 @@
 }
 
 body {
-    font-family: "roboto", "Raleway";
+    font-family: "roboto", sans-serif;
     color: #434455;
     background-color: var(--white);
 }
 button {
-    font-family: inherit;
+    font-family: "roboto", sans-serif;
 }
 .link {
     text-decoration: none;
@@ -31,7 +31,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover, button:focus {
     background-color: var(--ocean);
 }
 
@@ -41,11 +41,12 @@ footer {
 
 
 .link-logo {
-    font-family: raleway;
+    font-family: "raleway", sans-serif;
     color: var(--iris);
     text-transform: uppercase;
     font-size: 18px;
-    line-height: 1.16;
+    font-weight: 800;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -68,7 +69,11 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.link:active {
+.link:active{
+    color: var(--ocean);
+}
+
+.link:hover, .link:focus{
     color: var(--ocean);
 }
 
@@ -108,12 +113,14 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.h2-headers {
+.h-two-headers {
     color: var(--navyblue);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    font-weight: 700
 }
 
 .our-team {
@@ -126,6 +133,7 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    font-weight: 500;
 }
 .our-team-card-role {
     color: var(--slate);
@@ -142,8 +150,10 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.logo-style-2 {
+.logo-style-footer {
     color: var(--cloud);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
 }
 
 .portfolio-button {
