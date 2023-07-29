@@ -1,6 +1,6 @@
 :root {
     --main-text-color: #434455;
-    --primary-font: "roboto", sans-serif;
+    --primary-font: "Roboto", sans-serif;
     --iris: #4D5AE5;
     --navyblue: #2E2F42;
     --slate: #434455;
@@ -10,12 +10,12 @@
 }
 
 body {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--white);
 }
 button {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .link {
     text-decoration: none;
@@ -41,7 +41,7 @@ footer {
 
 
 .link-logo {
-    font-family: "raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: var(--iris);
     text-transform: uppercase;
     font-size: 18px;
@@ -104,6 +104,10 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
+}
+
+.abilities-list {
+    background-color: var(--white);
 }
 
 .main-text {
